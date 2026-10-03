@@ -42,6 +42,22 @@ jupyter notebook MRH_01_Prepare_14050711.ipynb
 
 ---
 
+### 📥 Pre-trained Models Configuration
+
+The following models are utilized in this diagnostic study. Please ensure they are downloaded and placed in the `./pretrained_models/` directory:
+
+| Architecture | Model Key | HuggingFace Identifier / Path |
+| :--- | :--- | :--- |
+| **WavLM-Base+** | `"wavlm-base-plus"` | `microsoft/wavlm-base-plus` |
+| **HuBERT-Base** | `"hubert-base"` | `facebook/hubert-base-ls960` |
+| **Wav2Vec2-Base** | `"wav2vec2-base"` | `facebook/wav2vec2-base` |
+| **Data2Vec-Audio** | `"data2vec-audio-base-960h"` | `facebook/data2vec-audio-base-960h` |
+| **Whisper-Small (Enc)** | `"whisper-small"` | `openai/whisper-small` |
+
+> **Note:** For Whisper, we specifically analyze the **Encoder** representations to maintain consistency with the other self-supervised backbones.
+
+---
+
 ## 📖 Citation
 If you find this codebase or our research useful for your work, please cite:
 @article{speech_ssl_disentanglement_2024,
