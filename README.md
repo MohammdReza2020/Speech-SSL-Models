@@ -58,7 +58,7 @@ The following models are utilized in this diagnostic study. Please ensure they a
 ---
 
 ## 📖 Citation
-If you find this codebase or our research useful for your work, please cite:
+The paper is under Review but, If you find this codebase or our research useful for your work, please cite:
 @article{speech_ssl_disentanglement_2026,
   title={Where is What? A Comprehensive Layer-wise Analysis of Content, Speaker, and Prosody in Speech SSL Models},
   author={Mohammad Reza Hasanabadai, Davoud Gheravian},
