@@ -24,3 +24,30 @@ This repository provides the complete framework to analyze the hierarchical repr
 Before running the diagnostic probing pipelines, ensure the pre-trained checkpoints are downloaded into the designated directory:
 ```bash
 mkdir -p pretrained_models
+
+---
+
+##  🚀 Execution Pipeline
+
+To reproduce the experiments, run the Jupyter notebooks **sequentially in numbered order (01 → 04)**:
+
+| Order | Notebook | Description |
+| :--- | :--- | :--- |
+| **1** | `MRH_01_Prepare_14050711.ipynb` | Download pre-trained SSL checkpoints and prepare datasets & feature extraction setup |
+| **2** | `MRH_02_Prosody_14050711.ipynb` | Layer-wise prosody probing (F0, RMS energy, duration regression) |
+| **3** | `MRH_03_Speaker_14050711.ipynb` | Speaker identification probing, cosine-similarity verification (EER), and pooling analysis |
+| **4** | `MRH_04_Content_14050711.ipynb` | Phonetic content (phoneme) probing and disentanglement metrics (ΔL, CDI, SDI, JDC) |
+```bash
+jupyter notebook MRH_01_Prepare_14050711.ipynb
+
+
+---
+
+## 📖 Citation
+If you find this codebase or our research useful for your work, please cite:
+@article{speech_ssl_disentanglement_2024,
+  title={Where is What? A Comprehensive Layer-wise Analysis of Content, Speaker, and Prosody in Speech SSL Models},
+  author={...},
+  journal={...},
+  year={2024}
+}
