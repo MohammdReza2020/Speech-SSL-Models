@@ -38,7 +38,6 @@ To reproduce the experiments, run the Jupyter notebooks **sequentially in number
 | **3** | `MRH_03_Speaker_14050711.ipynb` | Speaker identification probing, cosine-similarity verification (EER), and pooling analysis |
 | **4** | `MRH_04_Content_14050711.ipynb` | Phonetic content (phoneme) probing and disentanglement metrics (ΔL, CDI, SDI, JDC) |
 
-jupyter notebook MRH_01_Prepare_14050711.ipynb
 
 ---
 
@@ -62,7 +61,7 @@ The following models are utilized in this diagnostic study. Please ensure they a
 If you find this codebase or our research useful for your work, please cite:
 @article{speech_ssl_disentanglement_2024,
   title={Where is What? A Comprehensive Layer-wise Analysis of Content, Speaker, and Prosody in Speech SSL Models},
-  author={...},
-  journal={...},
-  year={2024}
+  author={Mohammad Reza Hasanabadai, Davoud Gheravian},
+  journal={Under Review},
+  year={2026}
 }
