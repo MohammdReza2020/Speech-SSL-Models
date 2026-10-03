@@ -27,7 +27,7 @@ mkdir -p pretrained_models
 
 ---
 
-##  🚀 Execution Pipeline
+## 🚀 Execution Pipeline
 
 To reproduce the experiments, run the Jupyter notebooks **sequentially in numbered order (01 → 04)**:
 
@@ -37,8 +37,8 @@ To reproduce the experiments, run the Jupyter notebooks **sequentially in number
 | **2** | `MRH_02_Prosody_14050711.ipynb` | Layer-wise prosody probing (F0, RMS energy, duration regression) |
 | **3** | `MRH_03_Speaker_14050711.ipynb` | Speaker identification probing, cosine-similarity verification (EER), and pooling analysis |
 | **4** | `MRH_04_Content_14050711.ipynb` | Phonetic content (phoneme) probing and disentanglement metrics (ΔL, CDI, SDI, JDC) |
+```bash
 jupyter notebook MRH_01_Prepare_14050711.ipynb
-
 
 ---
 
