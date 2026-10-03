@@ -1,4 +1,4 @@
-this is the repository related to the paper:
+This is the repository related to the paper:
 
 Where is What? A Comprehensive Layer-wise Analysis of Content, Speaker, and Prosody in Speech SSL Models
 
