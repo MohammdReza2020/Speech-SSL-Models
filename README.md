@@ -22,7 +22,7 @@ This repository provides the complete framework to analyze the hierarchical repr
 ## ⚙️ Model Setup & Checkpoints
 
 Before running the diagnostic probing pipelines, ensure the pre-trained checkpoints are downloaded into the designated directory:
-```bash
+
 mkdir -p pretrained_models
 
 ---
