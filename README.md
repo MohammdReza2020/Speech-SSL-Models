@@ -24,3 +24,14 @@ This repository provides the complete framework to analyze the hierarchical repr
 Before running the diagnostic probing pipelines, ensure the pre-trained checkpoints are downloaded into the designated directory:
 ```bash
 mkdir -p pretrained_models
+
+
+Place the respective HuggingFace / Fairseq checkpoints into ./pretrained_models/:
+
+
+Architecture	Model Key	Model Identifier / Path
+WavLM-Base+	"wavlm-base-plus"	microsoft/wavlm-base-plus
+HuBERT-Base	"hubert-base"	facebook/hubert-base-ls960
+Wav2Vec2-Base	"wav2vec2-base"	facebook/wav2vec2-base
+Data2Vec-Audio	"data2vec-audio-base-960h"	facebook/data2vec-audio-base-960h
+Whisper-Small (Enc)	"whisper-small"	openai/whisper-small
